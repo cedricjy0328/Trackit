@@ -1,0 +1,58 @@
+/* Reminder                             
+/***************************************/
+.reminder {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	width: auto;
+	padding: 1em;
+	margin: 1em;
+}
+
+.reminder-title {
+	display: block;
+	font-size: 20px;
+	color: #82A0A8;
+	font-weight: bold;
+	border-bottom: 1px solid #82A0A8;
+	text-transform: uppercase;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+.reminder-desc {
+	font-size: 16px;
+	display: block;
+	border-bottom: 1px solid #eee;
+	padding: 1em;
+}
+
+.reminder-footer {
+	font-size: 14px;
+	float: right;
+	padding: 0.5em;
+}
+
+a.reminder-footer {
+	color: #92B1CB;
+}
+
+a.reminder-footer:hover {
+	text-decoration: none;
+}
+
+#successMessage{
+	color: green;
+}
+
+#alertMessage{
+	color: red;
+}
+
+.valid{
+	display: none;
+}
+
+.invalid{
+	display: block;
+	color: red;
+}

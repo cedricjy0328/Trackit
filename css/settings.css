@@ -1,0 +1,42 @@
+/* Settings                             
+/***************************************/
+.settings {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	width: auto;
+	padding: 1em;
+	margin: 1em;
+}
+
+.settings-title {
+	display: block;
+	font-size: 20px;
+	color: #82A0A8;
+	font-weight: bold;
+	border-bottom: 1px solid #82A0A8;
+	text-transform: uppercase;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+.settings-desc {
+	color: #92B1CB;
+	font-size: 16px;
+	display: block;
+	padding: 1em;
+}
+
+.settings-footer {
+	font-size: 14px;
+	float: right;
+	padding: 0.5em;
+}
+
+.valid{
+	display: none;
+}
+
+.invalid{
+	display: block;
+	color: red;
+}

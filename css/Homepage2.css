@@ -1,0 +1,306 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: arial;
+}
+
+
+/* Navbar                              
+/***************************************/
+
+/* change the theme color */
+.bg-dark {
+  background-color: #82A0A8 !important;
+}
+
+.headerDesc {
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(to bottom, #95B2BA, #FFF);
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	height: 300px;
+	font-size: 24px;
+	padding: 1em;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000; 
+}
+
+/* Dropdown Menu                                
+/***************************************/
+
+/* change the position of dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0 -7.5rem;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+
+/* Body                                
+/***************************************/
+
+
+/* Main                                
+/***************************************/
+.main-box {
+	font-family: 'Raleway', sans-serif;
+	background-color: #FFF;
+	font-size: 14px;
+	width: auto;
+	padding: 1em 1.5em 1em 1.5em;
+	margin: 1em;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 1px #eee;
+}
+
+.main-box-footer {
+	text-align: right;
+}
+
+.main-header {
+	font-size: 24px;
+	text-align: center;
+}
+
+table td {
+	padding: 0.25em 0 0.25em 0.75em;
+}
+
+.goal-details {
+	font-family: trebuchet ms;
+	font-size: 10px;
+	line-height: 13px;
+	border-left: 3px solid #82A0A8;
+	margin: 1em 0.5em 1.5em 0.5em;
+	padding: 0.5em;
+	width: auto;
+	text-transform: uppercase;
+}
+
+.goal-details-done {
+	background-color: #B7E8C2;
+	font-family: trebuchet ms;
+	font-size: 10px;
+	line-height: 13px;
+	border-left: 3px solid #28A745;
+	margin: 1em 0.5em 1.5em 0.5em;
+	padding: 0.5em;
+	width: auto;
+	text-transform: uppercase;
+}
+
+.goal-footer {
+	width: 100%;
+}
+
+.goal-footer-upload {
+	float: left;
+	margin-right: 10px;
+}
+
+.goal-footer-done {
+	float: right;
+}
+
+.main-footer-bold {
+	display: inline;
+	font-weight: bold;
+}
+
+.main-box a {
+	color: #82A0A8;
+}
+
+.main-box a:hover {
+	-webkit-transition-duration: 1s;
+	color: #000;
+}
+
+/* Sidebox                             
+/***************************************/
+.sidebox {
+	background-color: #EDF5F7;
+	font-size: 12px;
+	width: auto;
+	padding: 1em;
+	margin: 1em;
+}
+
+.sidebox-header {
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+
+.sidebox-footer {
+	text-align: center;
+}
+
+.sidebox a {
+	color: #000;
+}
+
+a {
+	color: #DBE3EB;
+}
+
+/* Popup Box                             
+/***************************************/
+.w3-modal{
+	font-family: 'Raleway', sans-serif;
+	z-index:3;
+	display:none;
+	padding-top:100px;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.4);
+}
+	
+.w3-modal-content{
+	margin:auto;
+	background-color:#fff;
+	position:relative;
+	padding:0;
+	outline:0;
+	width:600px;
+}
+
+@media (max-width:600px){
+.w3-modal-content{
+	margin:0 10px;
+	width:auto !important;
+}
+
+.w3-modal{
+	padding-top:30px;
+}
+}
+
+@media (max-width:768px){
+.w3-modal-content{
+	width:500px;
+}
+
+.w3-modal{
+	padding-top:50px;
+}}
+
+@media (min-width:993px){
+.w3-modal-content{
+	width:900px;
+}}
+
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.w3-container, .w3-panel{
+	padding:0.01em 16px;
+}
+
+.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
+.w3-display-topright{position:absolute;right:0;top:0;font-size: 20px;}
+
+.createbtn {
+  display: block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px auto 8px auto;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+
+/* Add padding to container elements */
+.container-homepage {
+  padding: 16px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.container-homepage a{
+  color: blue;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background: none;
+  width: 100%;
+  border: none;
+  margin: 30px auto 10px auto; /* 5% from the top, 15% from the bottom and centered */
+}
+
+/* Style the horizontal ruler */
+hr {
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .createbtn {
+     width: 100%;
+  }
+}
+

@@ -1,0 +1,189 @@
+/* General Styling                             
+/***************************************/
+h1 {
+	color: #82A0A8;
+}
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: #ccc;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+/* Project Box                             
+/***************************************/
+.projectBox {
+	font-family: 'Raleway', sans-serif;
+	border: 1px solid #82A0A8;
+	border-radius: 10px;
+	font-size: 12px;
+	width: auto;
+	padding: 1em;
+	margin: 1em;
+}
+
+a.projectBox-title {
+	display: inline-block;
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+a.projectBox-title:hover {
+	color: #6F929C;
+}
+
+.projectBox-desc {
+	font-size: 12px;
+}
+
+.projectBox-footer {
+	text-align: right;
+}
+
+.projectBox-footer a{
+	color: #82A0A8;
+}
+
+.projectBox-footer a:hover {
+	-webkit-transition-duration: 1s;
+	color: #000;
+}
+
+/* Popup Box                             
+/***************************************/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=date] {
+  display: inline-block;
+  border: 1px solid #ccc;
+  background: #f1f1f1;
+}
+
+.createbtn {
+  display: block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px auto 8px auto;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+/* Add padding to container elements */
+.container-dashboard {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 30px auto 10px auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.db-modal-content {
+  background-color: #fefefe;
+  margin: 30px auto 10px auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.valid{
+  display: none;
+}
+
+.invalid{
+  display: block;
+  color: red;
+}
+
+#alert{
+  color: red;
+}
